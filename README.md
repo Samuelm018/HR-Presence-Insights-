@@ -1,4 +1,4 @@
-# HR Presence Insights Dashboard (Power BI)**
+# HR Presence Insights Dashboard using POWER BI
 
 **Project Overview :**
 
