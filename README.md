@@ -1,12 +1,12 @@
-**HR Presence Insights Dashboard (Power BI)**
+# HR Presence Insights Dashboard (Power BI)**
 
-## Project Overview :
+**Project Overview :**
 
 This project showcases an HR Presence Insights Dashboard developed using Power BI to analyze employee attendance behavior and workplace trends.
 
 The dashboard transforms raw HR attendance data into clear, decision-ready insights, enabling HR leaders and management to make informed decisions around hybrid work policies, workforce planning, and attendance monitoring.
 
-Project Objectives :
+**Project Objectives :**
 
 Measure overall employee presence across the organization
 
@@ -18,21 +18,7 @@ Highlight outliers and anomalies at an individual level
 
 Support data-driven HR decision-making
 
-Key Insights & Findings :
-
-Overall Presence Rate: 91.83%
-
-WFH Adoption: 10.00%
-
-Sick Leave Utilization: 1.10%
-
-Highest presence observed on Mondays and Tuesdays
-
-WFH usage peaks on Fridays, indicating hybrid work preferences
-
-Employee-level analysis helps identify attendance irregularities
-
-Tools & Technologies :
+**Tools & Technologies :**
 
 Power BI – Dashboard design & visualization
 
@@ -44,7 +30,7 @@ HR Analytics – Workforce data interpretation
 
 Data Visualization & Storytelling
 
-Dashboard Capabilities :
+**Dashboard Capabilities :**
 
 KPI cards for Presence %, WFH %, and SL %
 
@@ -56,7 +42,15 @@ Employee-level drilldowns for detailed analysis
 
 Interactive slicers for month and date filtering
 
-Business Impact :
+**DAX Measures :**
+
+Presence % = DIVIDE([Present Days],'Measure Table'[Total Working Days],0) 
+
+SL % = DIVIDE([SL Count],[Total Working Days],0)
+
+WFH % = DIVIDE([WFH Count],[Present Days],0)
+
+**Business Impact :**
 
 This dashboard enables organizations to:
 
@@ -70,12 +64,16 @@ Reduce manual HR reporting effort through automation
 
 Support leadership with data-backed workforce insights
 
-Future Enhancements :
+**Key Insights & Findings :**
 
-Department-wise and role-based attendance analysis
+Overall Presence Rate: 91.83%
 
-Monthly, quarterly, and yearly trend comparisons
+WFH Adoption: 10.00%
 
-Predictive analytics for absenteeism forecasting
+Sick Leave Utilization: 1.10%
 
-Integration with live HR or attendance management systems
+Highest presence observed on Mondays and Tuesdays
+
+WFH usage peaks on Fridays, indicating hybrid work preferences
+
+Employee-level analysis helps identify attendance irregularities
